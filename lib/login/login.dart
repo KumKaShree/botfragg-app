@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_import, implementation_imports, prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -30,7 +32,7 @@ class _LoginPageState extends State<LoginPage> {
                     style: GoogleFonts.jetBrainsMono(
                         fontSize: 46, fontWeight: FontWeight.w800)),
                 SizedBox(height: 10),
-                Text("Welcome Back, you\'ve been missed!",
+                Text("Welcome Back, you've been missed!",
                     style: TextStyle(fontSize: 20)),
                 SizedBox(height: 50),
 
